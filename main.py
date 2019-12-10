@@ -11,10 +11,10 @@ from decimal import Decimal
 
 def main():
     # Load data for bushings
-    bushing = pd.DataFrame(pd.read_excel('wearout.xls', 'Bushing'))
+    bushing = pd.read_excel('wearout.xls', 'Bushing')
 
     # Load data for pins
-    pin = pd.DataFrame(pd.read_excel('wearout.xls', 'Pin'))
+    pin = pd.read_excel('wearout.xls', 'Pin')
 
     """
         Calculate wear out difference
